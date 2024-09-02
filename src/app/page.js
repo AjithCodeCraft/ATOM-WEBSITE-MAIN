@@ -25,7 +25,7 @@ export default function Home() {
         {/* <link rel="icon" href="/Atom-logo-only.png" type="image/png" /> */}
         <title>{metadata.title}</title>
     </Head>
-      <Header />
+      {/* <Header /> */}
       <section className="bg-white pt-10 lg:pt-12">
         <div className="max-w-screen-xl px-8 lg:px-16 pt-12 pb-4 mx-auto lg:grid lg:grid-cols-12 lg:py-16 lg:pt-22">
           {/* Left column with text content */}
