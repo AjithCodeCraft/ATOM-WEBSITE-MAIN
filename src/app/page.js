@@ -31,9 +31,10 @@ export default function Home() {
             <h1 className="text-indigo-600 dark:text-indigo-400 text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-6xl">
               Welcome to Atom
             </h1>
-            <h2 className="max-w-2xl mb-6 text-4xl font-extrabold tracking-tight md:text-5xl xl:text-5xl dark:text-black">
-              The Cosmic Hub for IAS Aspirants
-            </h2>
+            <h2 className="max-w-2xl mb-6 text-4xl font-extrabold tracking-tight md:text-5xl xl:text-5xl text-black dark:text-black">
+  The Cosmic Hub for IAS Aspirants
+</h2>
+
             <p className="max-w-2xl mb-6 text-black dark:text-gray-300 text-lg font-normal lg:text-xl">
               We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers, and syllabus navigators.
             </p>
