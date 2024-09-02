@@ -23,18 +23,18 @@ export default function Home() {
         {/* <link rel="icon" href="/Atom-logo-only.png" type="image/png" /> */}
         <title>{metadata.title}</title>
       </Head>
-      <Header />
-      <section className="bg-white pt-10 lg:pt-12">
+      {/* <Header /> */}
+      <section className="bg-white dark:bg-gray-900 pt-10 lg:pt-12">
         <div className="max-w-screen-xl px-8 lg:px-16 pt-12 pb-4 mx-auto lg:grid lg:grid-cols-12 lg:py-16 lg:pt-22">
           {/* Left column with text content */}
           <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-10">
-            <h1 className="text-indigo-600 text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
+            <h1 className="text-indigo-600 dark:text-indigo-400 text-3xl font-extrabold md:text-4xl lg:text-5xl xl:text-6xl">
               Welcome to Atom
             </h1>
             <h2 className="max-w-2xl mb-6 text-4xl font-extrabold tracking-tight md:text-5xl xl:text-5xl dark:text-white">
               The Cosmic Hub for IAS Aspirants
             </h2>
-            <p className="max-w-2xl mb-6 text-black text-lg font-normal lg:text-xl dark:text-gray-300">
+            <p className="max-w-2xl mb-6 text-black dark:text-gray-300 text-lg font-normal lg:text-xl">
               We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers, and syllabus navigators.
             </p>
 
@@ -57,10 +57,10 @@ export default function Home() {
           </div>
         </div>
         <div className="h-10 md:pl-6 pl-2 justify-start items-center gap-5 inline-flex flex-wrap">
-          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2025</Link>
-          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2024</Link>
-          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
-          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
+          <Link href='#' className="text-black dark:text-white md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2025</Link>
+          <Link href='#' className="text-black dark:text-white md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2024</Link>
+          <Link href='#' className="text-black dark:text-white md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
+          <Link href='#' className="text-black dark:text-white md:text-sm text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
         </div>
       </section>
       {/* <About /> */}
