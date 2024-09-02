@@ -22,9 +22,9 @@ const WhyChoose = () => {
                 AToM's legacy lies in the aspirants we nurture, the leaders we shape, and the positive impact they create.
               </p>
             </div>
-            <div className="bg-fit h-full py-48 rounded-lg"
-              style={{ backgroundImage: "url(/why_choose_1.jpeg)", backgroundSize: "cover", backgroundPosition: "center bottom" }}>
-            </div>
+            <div className="bg-fit h-full py-48 rounded-lg">
+              <Image src="/why_choose_1.jpeg" alt="why_choose_1" layout="responsive" width={300} height={300} className="rounded-lg object-cover" />
+              </div>
           </div>
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
             <div className="order-none md:order-2">
