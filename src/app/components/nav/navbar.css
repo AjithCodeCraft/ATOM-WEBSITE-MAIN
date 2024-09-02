@@ -1,0 +1,51 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+  /* Use relative units for responsiveness */
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: turquoise;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.navbar {
+  width: 250px;
+  height: 700px;
+  margin: 0; /* Adjusted from 'none' */
+  border-radius: 16px;
+  background: linear-gradient(to top, #8e2de2, #4a00e0);
+  position: fixed; /* Ensure it stays in place */
+  top: 0;
+  left: 0; /* Adjust position if needed */
+}
+
+.navList {
+  padding: 100px 70px; /* Adjusted to use shorthand */
+  overflow-y: auto; /* Add scrolling if content overflows */
+}
+
+.nav-item {
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+h4 {
+  margin: 0; /* Remove default margins */
+}

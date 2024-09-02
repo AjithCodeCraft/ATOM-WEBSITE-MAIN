@@ -1,0 +1,34 @@
+.content-container {
+  display: flex;
+}
+.content-container > * {
+  width: 50%;
+}
+
+.right-content {
+  padding-right: 15px;
+}
+
+.left-content {
+  height: 100vh;
+  position: relative;
+  perspective: 1000px; /* Add perspective to enable 3D effects */
+}
+
+.left-content > * {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.header-section {
+  text-align: center;
+  padding: 1rem 6rem;
+}
+
+.gsap-logo {
+  left: 1rem;
+}

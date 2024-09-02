@@ -1,0 +1,11 @@
+/* About.module.css */
+.imageContainer {
+  width: 150px;
+  height: 200px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
