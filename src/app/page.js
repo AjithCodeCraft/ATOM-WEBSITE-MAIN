@@ -1,12 +1,9 @@
-
 import Image from 'next/image';
 import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/contactForm';
 import Footer from './components/footer';
 import Course from './components/Course';
-// import InfoSection from './components/infosection';
-// import Scroll from './components/scroll';
 import WhyChoose from './components/whychose';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -15,17 +12,18 @@ export const metadata = {
   title: 'AToMias',
   description: 'Description of your IAS Academy'
 };
+
 export default function Home() {
   return (
     <>
-    <Head>
+      <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={metadata.description} />
         {/* <link rel="icon" href="/Atom-logo-only.png" type="image/png" /> */}
         <title>{metadata.title}</title>
-    </Head>
-      {/* <Header /> */}
+      </Head>
+      <Header />
       <section className="bg-white pt-10 lg:pt-12">
         <div className="max-w-screen-xl px-8 lg:px-16 pt-12 pb-4 mx-auto lg:grid lg:grid-cols-12 lg:py-16 lg:pt-22">
           {/* Left column with text content */}
@@ -41,7 +39,7 @@ export default function Home() {
             </p>
 
             {/* Buttons container with more spacing */}
-            <div className="flex justify-center lg:justify-start gap-4 mt-6">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-start gap-4 mt-6">
               <button className="bg-[#4f46e5] text-white text-sm md:text-lg rounded-full py-3 px-6 md:px-10 transition-transform duration-300 border border-[#4f46e5] hover:scale-110 hover:shadow-inner">
                 Start for free
               </button>
@@ -58,13 +56,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-10 md:pl-6 pl-2 justify-start items-center gap-5 inline-flex">
-        <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br></br>2025</Link>
-        <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains  <br></br>2024</Link>
-       <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
-       <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
-      </div>
-
+        <div className="h-10 md:pl-6 pl-2 justify-start items-center gap-5 inline-flex flex-wrap">
+          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2025</Link>
+          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains <br />2024</Link>
+          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal md:pr-8 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
+          <Link href='#' className="text-black md:text-sm text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
+        </div>
       </section>
       {/* <About /> */}
       <WhyChoose />
@@ -73,7 +70,6 @@ export default function Home() {
       <Contact />
       {/* <Scroll /> */}
       <Footer />
-     
     </>
   );
 }
