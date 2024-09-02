@@ -5,8 +5,8 @@ import About from './components/About';
 import Contact from './components/contactForm';
 import Footer from './components/footer';
 import Course from './components/Course';
-import InfoSection from './components/infosection';
-import Scroll from './components/scroll';
+// import InfoSection from './components/infosection';
+// import Scroll from './components/scroll';
 import WhyChoose from './components/whychose';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -26,7 +26,7 @@ export default function Home() {
         <title>{metadata.title}</title>
     </Head>
       <Header />
-      <section className="bg-white dark:bg-gray-900 pt-10 lg:pt-12">
+      <section className="bg-white pt-10 lg:pt-12">
         <div className="max-w-screen-xl px-8 lg:px-16 pt-12 pb-4 mx-auto lg:grid lg:grid-cols-12 lg:py-16 lg:pt-22">
           {/* Left column with text content */}
           <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-10">

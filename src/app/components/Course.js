@@ -8,7 +8,7 @@ function Course() {
         switch (selectedPlan) {
             case '2024Mains':
                 return (
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 px-1 lg:px-8 py-12 ">
                         {/* Card 1 */}
                         <div className="flex flex-col p-6 text-center text-gray-900 bg-white border border-gray-100 rounded-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transform shadow-xl transition duration-300 hover:scale-105">
                             <h3 className="mb-4 text-2xl font-semibold">ATOM SCRIBBLE</h3>

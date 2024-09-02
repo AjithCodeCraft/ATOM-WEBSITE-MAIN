@@ -5,14 +5,14 @@ const WhyChoose = () => {
   return (
     <>
       {/* Section 1 */}
-      <section className="bg-white text-black">
-      <div className="mx-auto sm:px-7 px-4 max-w-screen-xl py-20 flex flex-col">
-          <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+      <section className="bg-white text-black px-4 lg:px-8 py-12">
+        <div className="max-w-screen-lg mx-auto flex flex-col">
+          <div className="grid items-center grid-cols-1 mb-16 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12">
             <div>
-              <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
+              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-3xl">
                 Atom's Way
               </h2>
-              <p className="mb-5 text-base text-center text-black sm:text-left md:text-lg">
+              <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
                 Why do we exist? <br />
                 Simple. To turn your "maybe" into "manifested." <br /><br />
                 Our mission? <br />
@@ -22,16 +22,22 @@ const WhyChoose = () => {
                 AToM's legacy lies in the aspirants we nurture, the leaders we shape, and the positive impact they create.
               </p>
             </div>
-            <div className="bg-fit h-full py-48 rounded-lg">
-              <Image src="/why_choose_1.jpeg" alt="why_choose_1" layout="responsive" width={300} height={300} className="rounded-lg object-cover" />
-              </div>
+            <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto">
+              <Image
+                src="/why_choose_1.jpeg"
+                alt="Hero image"
+                layout="fill"
+                className="rounded-lg object-cover"
+              />
+            </div>
           </div>
-          <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+
+          <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12">
             <div className="order-none md:order-2">
-              <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
+              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-3xl">
                 Why Choose Us?
               </h2>
-              <p className="mb-5 text-base text-center text-black sm:text-left md:text-lg">
+              <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
                 Because we’re not just about exams; we’re about shaping future leaders who’ll inspire generations. <br /><br />
                 At AToM, our mission is to ignite the flames of aspiration within every IAS aspirant. <br /><br />
                 We believe that mentorship is the compass that guides these flames toward the summit of success. <br /><br />
@@ -40,16 +46,17 @@ const WhyChoose = () => {
                 Simple. <span className='italic'>We’re here to turbocharge your dreams.</span>
               </p>
             </div>
-            <div className="bg-fit h-full py-48 rounded-lg"
-              style={{ backgroundImage: "url(/why_choose_3.jpeg)", backgroundSize: "cover", backgroundPosition: "center bottom" }}>
-          </div>
+            <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto ml-4"> {/* Added ml-4 */}
+              <Image
+                src="/why_choose_3.jpeg"
+                alt="Hero image"
+                layout="fill"
+                className="rounded-lg object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
-
-
-
-     
     </>
   );
 };
