@@ -22,7 +22,7 @@ export default function Home() {
         <title>{metadata.title}</title>
       </Head>
       <Header />
-      <section className="bg-white pt-8 lg:pt-10 max-w-screen-xl px-6 lg:px-12 pt-10 pb-3 mx-auto">
+      <section className="bg-white lg:pt-10 max-w-screen-xl px-6 lg:px-12 pt-10 pb-3 mx-auto">
         <div className="lg:grid lg:grid-cols-12 lg:py-14 lg:pt-18">
 
           <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-8">

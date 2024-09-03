@@ -5,7 +5,7 @@ const WhyChoose = () => {
   return (
     <>
       {/* Section 1 */}
-      <section className="bg-white text-black py-12 md:w-[75%] w-full mx-auto  px-6 lg:px-8 ">
+      <section className="bg-white text-black py-12 xl:w-[75%] lg:w-[85%] w-full mx-auto  px-6 xl:px-12 lg:px-8 ">
         <div className="flex flex-col w-full">
           <div className="grid items-center grid-cols-1 mb-16 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12 ">
             <div className=''>
