@@ -6,7 +6,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(prev => !prev);
+    setIsOpen((prev) => !prev);
   };
 
   return (
@@ -22,27 +22,27 @@ export default function Header() {
               className="h-16 mr-11"
             />
           </a>
-          {/* Custom Hamburger Menu Button */}
-          <button
+          
+          {/* Hamburger Menu Button */}
+          <div
+            className={`tham tham-e-squeeze tham-w-6 lg:hidden relative rounded-full h-16 w-16 flex items-center justify-center shadow-lg z-50 ${isOpen ? "tham-active bg-[#932ade]" : "bg-[#ffffff]"}`}
             onClick={toggleMenu}
-            className={`lg:hidden relative rounded-full h-16 w-16 flex items-center justify-center shadow-lg z-50 ${isOpen ? "bg-[#932ade]" : "bg-[#50C9C3]"}`}
           >
-            <span
-              className={`block w-8 h-1 bg-black transform transition-transform duration-300 ${isOpen ? "rotate-45 translate-y-1" : ""}`}
-            ></span>
-            <span
-              className={`block w-8 h-1 bg-black my-2 transform transition-opacity duration-300 ${isOpen ? "opacity-0" : ""}`}
-            ></span>
-            <span
-              className={`block w-8 h-1 bg-black transform transition-transform duration-300 ${isOpen ? "-rotate-45 -translate-y-1" : ""}`}
-            ></span>
-          </button>
+            <div className="tham-box">
+              <div className="tham-inner bg-black"></div>
+            </div>
+          </div>
+
           {/* Mobile Navigation */}
           <motion.nav
-            initial={{ opacity: 0, height: "0%", padding: "0 2rem 0 0" }}
-            animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? "100%" : "0%", padding: isOpen ? "2rem 2rem 2rem 2rem" : "0 2rem 0 0" }}
+            initial={{ opacity: 0, width: "0%", padding: "0 0rem 0 0" }}
+            animate={{
+              opacity: isOpen ? 1 : 0,
+              width: isOpen ? "70%" : "0%",
+              padding: isOpen ? "2rem 2rem 2rem 2rem" : "0 0rem 0 0",
+            }}
             transition={{ duration: 0.8 }}
-            className="fixed top-0 right-0 w-full h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 z-40 rounded-xl shadow-lg"
+            className={`fixed top-0 right-0 h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 z-40 rounded-l-xl shadow-lg ${isOpen ? 'pointer-events-auto' : 'pointer-events-none'}`}
           >
             <ul className="flex flex-col items-start justify-start space-y-6 mt-16">
               {["About Us", "Courses", "Careers", "Contact Us"].map((item) => (
@@ -58,6 +58,7 @@ export default function Header() {
               ))}
             </ul>
           </motion.nav>
+
           {/* Desktop Navigation Items */}
           <div className="hidden lg:flex lg:items-center lg:justify-end lg:space-x-8">
             <ul className="flex space-x-8">

@@ -31,3 +31,50 @@ body {
     text-wrap: balance;
   }
 }
+/* Add these styles in your CSS file */
+.tham {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.tham-active .tham-inner {
+  transform: rotate(45deg);
+}
+
+.tham-inner {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.tham-inner::before,
+.tham-inner::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.tham-inner::before {
+  top: -8px;
+}
+
+.tham-inner::after {
+  top: 8px;
+}
+
+.tham-active .tham-inner::before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.tham-active .tham-inner::after {
+  transform: rotate(90deg);
+  top: 0;
+}

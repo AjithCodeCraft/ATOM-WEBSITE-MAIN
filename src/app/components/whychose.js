@@ -24,7 +24,7 @@ const WhyChoose = () => {
             </div>
             <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto">
               <Image
-                src="/why_choose_1.jpeg"
+                src="/student4.png"
                 alt="Hero image"
                 layout="fill"
                 className="rounded-lg object-cover"
@@ -48,7 +48,7 @@ const WhyChoose = () => {
             </div>
             <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto ml-4"> {/* Added ml-4 */}
               <Image
-                src="/why_choose_3.jpeg"
+                src="/student3.jpg"
                 alt="Hero image"
                 layout="fill"
                 className="rounded-lg object-cover"
