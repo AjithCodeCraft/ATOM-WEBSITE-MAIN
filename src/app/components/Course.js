@@ -70,7 +70,7 @@ function Course() {
                                     <span>Progress tracking</span>
                                 </li>
                             </ul>
-                            <button type='button' onClick={() => sendWhatsAppMessage("ATOM SCRIBBLE", "Mains Excellence Bootcamp")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() => sendWhatsAppMessage("ATOM SCRIBBLE", "Mains Excellence Bootcamp")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 JOIN
                             </button>
                         </div>
@@ -132,7 +132,7 @@ function Course() {
                                     <span>Progress tracking</span>
                                 </li>
                             </ul>
-                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "PYQs Unleashed")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "PYQs Unleashed")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
                             </button>
                         </div>
@@ -188,7 +188,7 @@ function Course() {
                                     <span>Progress Tracking</span>
                                 </li>
                             </ul>
-                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
                             </button>
                         </div>
@@ -257,7 +257,7 @@ function Course() {
                                     <span>Intensive evaluation and<span className="block"> value addition</span></span>
                                 </li>
                             </ul>
-                            <button type='button'onClick={() =>sendWhatsAppMessage("ATOM SCRIBBLE", "Your Mains Navigator")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button'onClick={() =>sendWhatsAppMessage("ATOM SCRIBBLE", "Your Mains Navigator")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 JOIN
                             </button>
                         </div>
@@ -301,7 +301,7 @@ function Course() {
                                     <span>Evaluation within 2 days</span>
                                 </li>
                             </ul>
-                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "Mains PYQ Architect")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "Mains PYQ Architect")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
                             </button>
                         </div>
@@ -357,7 +357,7 @@ function Course() {
                                     <span>Model answer frameworks</span>
                                 </li>
                             </ul>
-                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Get started
                             </button>
                         </div>
@@ -422,7 +422,7 @@ function Course() {
                                 <span>Weekly one on one, On demand one on one session</span>
                             </li>
                         </ul>
-                        <button type='button' onClick={() =>sendWhatsAppMessage("Atom Ascend", "Companionship Program")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                        <button type='button' onClick={() =>sendWhatsAppMessage("Atom Ascend", "Companionship Program")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                             JOIN
                         </button>
                     </div>
@@ -438,13 +438,13 @@ function Course() {
                 <div className="mx-auto max-w-screen-md text-center mb-4">
                    
                     <div className="flex justify-center space-x-4 mb-8">
-                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2024Mains' ? 'bg-purple-600 text-white' : 'bg-white text-gray-900'} rounded-lg shadow`}>
+                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2024Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             2024 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2025Mains' ? 'bg-purple-600 text-white' : 'bg-white text-gray-900'} rounded-lg shadow`}>
+                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2025Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             2025 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-4 py-2 font-medium ${selectedPlan === 'Companionship' ? 'bg-purple-600 text-white' : 'bg-white text-gray-900'} rounded-lg shadow`}>
+                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-4 py-2 font-medium ${selectedPlan === 'Companionship' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             Companionship
                         </button>
                     </div>
