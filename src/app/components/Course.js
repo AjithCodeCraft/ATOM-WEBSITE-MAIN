@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 
 function Course() {
     const [selectedPlan, setSelectedPlan] = useState('2024Mains');
-
+    const sendWhatsAppMessage = (title, title1) => {
+        const message = `Hey, I need more information about the course "${title}" - "${title1}"`;
+        const whatsappURL = `https://wa.me/7306268026/?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+      };
     const renderCard = () => {
         switch (selectedPlan) {
             case '2024Mains':
@@ -66,9 +70,9 @@ function Course() {
                                     <span>Progress tracking</span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() => sendWhatsAppMessage("ATOM SCRIBBLE", "Mains Excellence Bootcamp")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 JOIN
-                            </a>
+                            </button>
                         </div>
     
                         {/* Card 2 */}
@@ -128,16 +132,16 @@ function Course() {
                                     <span>Progress tracking</span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "PYQs Unleashed")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
-                            </a>
+                            </button>
                         </div>
     
                         {/* Card 3 */}
                         <div className="flex flex-col p-6 text-center text-gray-900 bg-white border border-gray-100 rounded-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transform shadow-xl transition duration-300 hover:scale-105">
                             <h3 className="mb-4 text-2xl font-semibold">ESSAY NEBULA</h3>
                             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                            Connecting Minds And <span className="block">Crafting Essays</span>
+                                Connecting Minds And <span className="block">Crafting Essays</span>
                             </p>
                           
                             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
@@ -184,9 +188,9 @@ function Course() {
                                     <span>Progress Tracking</span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
-                            </a>
+                            </button>
                         </div>
                     </div>
                 );
@@ -253,16 +257,16 @@ function Course() {
                                     <span>Intensive evaluation and<span className="block"> value addition</span></span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button'onClick={() =>sendWhatsAppMessage("ATOM SCRIBBLE", "Your Mains Navigator")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 JOIN
-                            </a>
+                            </button>
                         </div>
     
                         {/* Card 2 */}
                         <div className="flex flex-col p-6 text-center text-gray-900 bg-white border border-gray-100 rounded-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transform shadow-xl transition duration-300 hover:scale-105">
                             <h3 className="mb-4 text-2xl font-semibold">QUANTUM LEAP</h3>
                             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                            Mains PYQ Architect
+                                Mains PYQ Architect
                             </p>
                            
                             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
@@ -297,9 +301,9 @@ function Course() {
                                     <span>Evaluation within 2 days</span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("QUANTUM LEAP", "Mains PYQ Architect")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Join
-                            </a>
+                            </button>
                         </div>
     
                         {/* Card 3 */}
@@ -353,9 +357,9 @@ function Course() {
                                     <span>Model answer frameworks</span>
                                 </li>
                             </ul>
-                            <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                            <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                                 Get started
-                            </a>
+                            </button>
                         </div>
                     </div>
                 );
@@ -418,9 +422,9 @@ function Course() {
                                 <span>Weekly one on one, On demand one on one session</span>
                             </li>
                         </ul>
-                        <a href="#" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
+                        <button type='button' onClick={() =>sendWhatsAppMessage("Atom Ascend", "Companionship Program")} className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
                             JOIN
-                        </a>
+                        </button>
                     </div>
                 );
             default:
