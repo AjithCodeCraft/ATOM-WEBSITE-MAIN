@@ -13,7 +13,7 @@ export default function Header() {
     <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-20">
       <nav className="py-2.5">
         <div className="flex items-center justify-between max-w-screen-xl px-8 mx-auto h-full">
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img
               src="/Atom-logo-2.png"
               alt="Logo"
@@ -62,10 +62,10 @@ export default function Header() {
           {/* Desktop Navigation Items */}
           <div className="hidden lg:flex lg:items-center lg:justify-end lg:space-x-8">
             <ul className="flex space-x-8">
-              {["About Us", "Courses", "Question Booklet Creator", "Contact Us"].map((item) => (
+              {["Why Choose Us", "Courses", "Question Booklet Creator", "Contact Us"].map((item) => (
                 <li key={item}>
                   <a
-                    href={`/${item.toLowerCase().replace(/ /g, "-")}`}
+                    href={`#${item.toLowerCase().replace(/ /g, "")}`}
                     className="block py-2 text-black hover:text-purple-700 dark:text-gray-400 dark:hover:text-white"
                   >
                     {item}
