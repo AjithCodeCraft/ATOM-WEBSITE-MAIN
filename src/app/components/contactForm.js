@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Contact = () => {
     return (
-        <div className="px-4 lg:px-8 py-12  bg-white">
+        <div className="px-4 lg:px-8 bg-white">
             <section className="mb-32">
                 {/* Section Header */}
                 <div className="flex justify-center">
@@ -23,7 +23,7 @@ const Contact = () => {
                             </label>
                             <input
                                 type="text"
-                                className="px-2 py-2 border w-full outline-none rounded-md"
+                                className="px-2 py-2 border w-full outline-none rounded-md text-[#464646]"
                                 id="nameInput"
                                 placeholder="Name"
                             />
@@ -35,7 +35,7 @@ const Contact = () => {
                             </label>
                             <input
                                 type="email"
-                                className="px-2 py-2 border w-full outline-none rounded-md"
+                                className="px-2 py-2 border w-full outline-none rounded-md text-[#464646]"
                                 id="emailInput"
                                 placeholder="Enter your email address"
                             />
@@ -46,7 +46,7 @@ const Contact = () => {
                                 Message
                             </label>
                             <textarea
-                                className="px-2 py-2 border rounded-md w-full outline-none"
+                                className="px-2 py-2 border rounded-md w-full outline-none text-[#464646]"
                                 id="messageInput"
                                 placeholder="Your message"
                                 rows="4"

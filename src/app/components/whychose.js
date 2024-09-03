@@ -5,11 +5,11 @@ const WhyChoose = () => {
   return (
     <>
       {/* Section 1 */}
-      <section className="bg-white text-black px-4 lg:px-8 py-12">
-        <div className="max-w-screen-lg mx-auto flex flex-col">
-          <div className="grid items-center grid-cols-1 mb-16 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12">
-            <div>
-              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-3xl">
+      <section className="bg-white text-black py-12 md:w-[75%] w-full mx-auto  px-6 lg:px-8 ">
+        <div className="flex flex-col w-full">
+          <div className="grid items-center grid-cols-1 mb-16 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12 ">
+            <div className=''>
+              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
                 Atom's Way
               </h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
@@ -34,7 +34,7 @@ const WhyChoose = () => {
 
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12">
             <div className="order-none md:order-2">
-              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-3xl">
+              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
                 Why Choose Us?
               </h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
@@ -46,7 +46,7 @@ const WhyChoose = () => {
                 Simple. <span className='italic'>We’re here to turbocharge your dreams.</span>
               </p>
             </div>
-            <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto ml-4"> {/* Added ml-4 */}
+            <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto ml-0">
               <Image
                 src="/student3.jpg"
                 alt="Hero image"
