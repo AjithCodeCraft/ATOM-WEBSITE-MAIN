@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Contact = () => {
     return (
-        <div className="px-4 lg:px-8 bg-white">
+        <div className="px-4 lg:px-8 bg-white" id='contactus'>
             <section className="mb-32">
                 {/* Section Header */}
                 <div className="flex justify-center">

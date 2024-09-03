@@ -55,9 +55,9 @@ export default function Home() {
           </div>
         </div>
         <div className="h-8 justify-start items-center mx-auto gap-4 inline-flex flex-wrap">
-          <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2025</Link>
-          <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2024</Link>
-          <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
+          <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2025</Link>
+          <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2024</Link>
+          <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
           <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
         </div>
       </section>
