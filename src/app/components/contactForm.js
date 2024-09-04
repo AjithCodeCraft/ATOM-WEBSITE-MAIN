@@ -7,7 +7,7 @@ const Contact = () => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const message = `Name: ${formData.get('name')}\nEmail: ${formData.get('email')}\nPhone: ${formData.get('phone')}\nMessage: ${formData.get('message')}`;
-        const phoneNumber = '7306268026'; // Replace 'your-whatsapp-number' with your actual WhatsApp number
+        const phoneNumber = '7306268026';
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
     };
@@ -85,11 +85,8 @@ const Contact = () => {
                             </button>
                         </form>
 
-
-                        {/* Contact Information */}
                         <div className="w-full">
                             <div className="flex flex-row justify-between">
-                                {/* Telegram */}
                                 <div className="mb-12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
@@ -102,7 +99,6 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                {/* Email */}
                                 <div className="mb-12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
@@ -126,8 +122,6 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-
-                                {/* Instagram */}
                                 <div className="mb-12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
@@ -140,7 +134,6 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                {/* YouTube */}
                                 <div className="mb-12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md p-4 text-indigo-600">
