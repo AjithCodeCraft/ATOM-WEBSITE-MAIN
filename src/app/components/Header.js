@@ -61,7 +61,7 @@ export default function Header() {
               padding: isOpen ? "2rem" : 0,
             }}
             transition={{ duration: 0.4 }}
-            className={`fixed top-2 right-0 bg-indigo-600 z-40 rounded-lg shadow-lg ${
+            className={`fixed top-2 right-0 bg-indigo-600 z-40 rounded-lg shadow-lg lg:hidden block ${
               isOpen ? "pointer-events-auto" : "pointer-events-none"
             }`}
             style={{
