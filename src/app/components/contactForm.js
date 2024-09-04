@@ -87,7 +87,7 @@ const Contact = () => {
 
                         <div className="w-full">
                             <div className="flex flex-row justify-between w-full">
-                                <div className="mb-12 px-3">
+                                <div className="mb-12 md:px-3 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
                                             <Link href='https://t.me/+ADvEJPjg2ThjNjE1' target='_blank'>
@@ -99,7 +99,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="mb-12 px-3">
+                                <div className="mb-12 md:px-3 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
                                             <Link href='mailto:atomiaspro@gmail.com?subject=Your%20Subject&body=Your%20Message'>
@@ -110,7 +110,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="mb-12 px-3 ">
+                                <div className="mb-12 md:px-3 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
                                             <Link href='https://whatsapp.com/channel/0029VacaP049xVJcgVONTu1' target='_blank'>
@@ -122,7 +122,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="mb-12 px-3">
+                                <div className="mb-12 md:px-3 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
                                             <Link href='https://www.instagram.com/atomiasofficial?igsh=Z2hsczJwempxcWto' target="_blank">
@@ -134,7 +134,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="mb-12 px-3">
+                                <div className="mb-12 md:px-3 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md p-4 text-indigo-600">
                                             <Link href='https://www.youtube.com/@ATOMIASOFFICIAL' target='_blank'>
