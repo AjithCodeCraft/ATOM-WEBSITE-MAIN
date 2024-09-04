@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <main className='flex flex-col gap-0 max-w-screen-xl mx-auto'>
         <Header />
-        <section className="bg-white lg:pt-10  px-6 lg:px-12 xl:px-4 pt-10 pb-3  mt-20 sm:mt-20 md:mt-20 lg:mt-0:">
+        <section className="bg-white lg:pt-10  px-6 lg:px-12 xl:px-4 pt-10 pb-3  mt-32 lg:mt-5">
           <div className="lg:grid lg:grid-cols-12 lg:py-14 lg:pt-18">
             <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-8">
               <h1 className="text-indigo-600 dark:text-indigo-400 text-4xl font-bold md:text-3xl lg:text-4xl xl:text-5xl mb-3">

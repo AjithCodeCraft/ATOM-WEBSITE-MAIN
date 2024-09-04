@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-28">
       <nav className="py-2.5">
-        <div className="flex items-center justify-between max-w-screen-xl px-8 mx-auto h-full">
+        <div className="flex items-center justify-between w-full px-8 mx-auto h-full">
           <a href="/" className="flex items-center">
             <img
               src="/Logo.png"
@@ -43,7 +43,7 @@ export default function Header() {
 
           {/* Hamburger Menu Button */}
           <div
-            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 fixed top-3 right-1 px-[10px] ${isOpen ? "tham-active bg-white" : "bg-[#ffffff]"}`}
+            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 px-[10px] ${isOpen ? "tham-active bg-white" : "bg-[#ffffff]"}`}
             onClick={toggleMenu}
           >
             <div className="tham-box">
