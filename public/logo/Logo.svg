@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530.07 613.1">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: .07em;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #6f63ff;
+      }
+
+      .cls-6 {
+        letter-spacing: .1em;
+      }
+
+      .cls-5 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 85px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-4" d="m519.74,368.81L327.82,36.38c-28.01-48.51-98.03-48.51-126.03,0L9.86,368.81c-28.01,48.51,7,109.15,63.02,109.15h383.85c56.02,0,91.02-60.64,63.02-109.15Zm-203.59-21.91h-102.71c-14.99,0-24.36-16.23-16.86-29.21l51.36-88.95c7.49-12.98,26.23-12.98,33.72,0l51.36,88.95c7.49,12.98-1.87,29.21-16.86,29.21Z"/>
+    <g>
+      <circle class="cls-2" cx="448.63" cy="402.38" r="56.15"/>
+      <circle class="cls-2" cx="80.97" cy="402.38" r="56.15"/>
+      <circle class="cls-2" cx="265.27" cy="75.57" r="56.15"/>
+      <rect class="cls-2" x="109.21" y="386.23" width="296.17" height="36.77"/>
+      <rect class="cls-2" x="209.12" y="219.94" width="296.17" height="36.77" transform="translate(384.99 -190.19) rotate(60)"/>
+      <rect class="cls-2" x="22.85" y="219.94" width="296.17" height="36.77" transform="translate(462.79 209.45) rotate(120)"/>
+    </g>
+  </g>
+  <text class="cls-5" transform="translate(22.43 582.57)"><tspan class="cls-3" x="0" y="0">A</tspan><tspan class="cls-1" x="72.34" y="0">T</tspan><tspan class="cls-6" x="130.14" y="0">oM IAS</tspan></text>
+</svg>
