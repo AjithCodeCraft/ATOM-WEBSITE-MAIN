@@ -57,11 +57,11 @@ export default function Header() {
             animate={{
               opacity: isOpen ? 1 : 0,
               width: isOpen ? "340px" : 0,
-              height: isOpen ? "60vh" : 0,
-              padding: isOpen ? "4rem" : 0,
+              height: isOpen ? "80vh" : 0,
+              padding: isOpen ? "2rem" : 0,
             }}
             transition={{ duration: 0.4 }}
-            className={`fixed top-3 right-1 bg-indigo-600 z-40 rounded-lg shadow-lg ${
+            className={`fixed top-2 right-0 bg-indigo-600 z-40 rounded-lg shadow-lg ${
               isOpen ? "pointer-events-auto" : "pointer-events-none"
             }`}
             style={{

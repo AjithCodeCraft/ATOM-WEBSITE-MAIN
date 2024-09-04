@@ -21,14 +21,12 @@ export default function Home() {
         <meta name="description" content={metadata.description} />
         <title>{metadata.title}</title>
       </Head>
-      <body className='flex flex-col gap-0 '>
+      <main className='flex flex-col gap-0 max-w-screen-xl mx-auto'>
         <Header />
-        <main>
-        <section className="bg-white lg:pt-10 max-w-screen-xl px-6 lg:px-12 pt-10 pb-3 mx-auto mt-20 sm:mt-20 md:mt-20 lg:mt-0:">
+        <section className="bg-white lg:pt-10  px-6 lg:px-12 xl:px-4 pt-10 pb-3  mt-20 sm:mt-20 md:mt-20 lg:mt-0:">
           <div className="lg:grid lg:grid-cols-12 lg:py-14 lg:pt-18">
-
             <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-8">
-              <h1 className="text-indigo-600 dark:text-indigo-400 text-4xl font-bold md:text-3xl lg:text-4xl xl:text-5xl">
+              <h1 className="text-indigo-600 dark:text-indigo-400 text-4xl font-bold md:text-3xl lg:text-4xl xl:text-5xl mb-3">
                 Welcome to Atom
               </h1>
               <h2 className="max-w-2xl mb-4 text-3xl font-bold tracking-tight md:text-4xl xl:text-4xl text-black dark:text-black">
@@ -40,47 +38,34 @@ export default function Home() {
               </p>
 
               <div className="flex flex-row justify-center lg:justify-start gap-3 mt-4">
-                <button className="bg-[#4f46e5] text-white text-xs md:text-base rounded-full py-2 px-4 md:px-8 transition-transform duration-300 border border-[#4f46e5] hover:scale-105 hover:shadow-inner">
+                <a href='#courses' className="bg-[#4f46e5] text-white text-xs md:text-base rounded-full py-2 px-4 md:px-8 transition-transform duration-300 border border-[#4f46e5] hover:scale-105 hover:shadow-inner">
                   Start for free
-                </button>
-                <button className="bg-white text-[#4f46e5] text-xs md:text-base rounded-full py-2 px-4 md:px-8 transition-transform duration-300 border border-[#4f46e5] hover:scale-105 hover:bg-[#4f46e5] hover:text-white hover:shadow-inner">
+                </a>
+                <a href='#contactus' className="bg-white text-[#4f46e5] text-xs md:text-base rounded-full py-2 px-4 md:px-8 transition-transform duration-300 border border-[#4f46e5] hover:scale-105 hover:bg-[#4f46e5] hover:text-white hover:shadow-inner">
                   Connect with us
-                </button>
+                </a>
               </div>
             </div>
-
-
             <div className="lg:col-span-5 flex justify-center items-center mt-6 lg:mt-4 lg:pl-8">
               <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-                <Image src="/hero-img.png" alt="Hero image" layout="responsive" width={300} height={300} className="rounded-lg object-cover" />
+                <Image
+                  src="/hero-img.png"
+                  alt="Hero image"
+                  width={300}
+                  height={300}
+                  className="rounded-lg object-cover"
+                  priority
+                  style={{ width: "100%", height: "auto" }}
+                />
               </div>
             </div>
           </div>
-          <div className="h-4 justify-start items-center mx-auto gap-2 inline-flex  mt-9 lg:mt-0">
-  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
-    Mains 2025
-  </Link>
-  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
-    Mains 2024
-  </Link>
-  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
-    Companionship
-  </Link>
-  <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal hover:underline">
-    Question Booklet Creator
-  </Link>
-</div>
-
-
         </section>
-        </main>
-
         <WhyChoose />
         <Course />
         <Contact />
         <Footer />
-      </body>
-      
+      </main>
     </>
   );
 }

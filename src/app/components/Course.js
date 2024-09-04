@@ -12,7 +12,7 @@ function Course() {
         switch (selectedPlan) {
             case '2024Mains':
                 return (
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 px-1 lg:px-8 py-8 ">
+                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2 px-1 lg:px-8 py-8 ">
                         {/* Card 1 */}
                         <div className="flex flex-col p-6 text-center text-gray-900 bg-white border border-gray-100 rounded-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transform shadow-xl transition duration-300 hover:scale-105">
                             <h3 className="mb-4 text-2xl font-semibold">ATOM SCRIBBLE</h3>
@@ -199,7 +199,7 @@ function Course() {
     
             case '2025Mains':
                 return (
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2">
                         {/* Card 1 */}
                         <div className="flex flex-col p-6 text-center text-gray-900 bg-white border border-gray-100 rounded-lg dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white transform shadow-xl transition duration-300 hover:scale-105">
                             <h3 className="mb-4 text-2xl font-semibold">ATOM SCRIBBLE</h3>
@@ -438,13 +438,13 @@ function Course() {
                 <div className="mx-auto max-w-screen-md text-center mb-4">
                    
                     <div className="flex justify-center space-x-4 mb-8">
-                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2024Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === '2024Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             2024 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-4 py-2 font-medium ${selectedPlan === '2025Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === '2025Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             2025 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-4 py-2 font-medium ${selectedPlan === 'Companionship' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === 'Companionship' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             Companionship
                         </button>
                     </div>
