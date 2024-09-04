@@ -87,8 +87,8 @@ const Contact = () => {
 
 
                         {/* Contact Information */}
-                        <div className="w-full shrink-0 grow-0 basis-auto lg:w-5/12">
-                            <div className="flex flex-row">
+                        <div className="w-full">
+                            <div className="flex flex-row justify-between">
                                 {/* Telegram */}
                                 <div className="mb-12 md:px-3 lg:px-6">
                                     <div className="flex items-start">
