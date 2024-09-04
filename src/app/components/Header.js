@@ -43,7 +43,7 @@ export default function Header() {
 
           {/* Hamburger Menu Button */}
           <div
-            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 fixed top-3 right-1 ${isOpen ? "tham-active bg-indigo-600" : "bg-[#ffffff]"}`}
+            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 fixed top-3 right-1 ${isOpen ? "tham-active bg-white" : "bg-[#ffffff]"}`}
             onClick={toggleMenu}
           >
             <div className="tham-box">
