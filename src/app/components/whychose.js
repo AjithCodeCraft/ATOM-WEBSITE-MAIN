@@ -9,9 +9,8 @@ const WhyChoose = () => {
         <div className="flex flex-col w-full">
           <div className="grid items-center grid-cols-1 mb-16 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12 ">
             <div className=''>
-              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
-                Atom's Way
-              </h2>
+            <h2 className="mb-3 text-xl font-bold tracking-tight text-center sm:text-left md:text-left md:leading-tight md:text-4xl px-6 sm:px-4 md:px-0 md:ml-0 text-indigo-600">
+            Atom's Way</h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
                 Why do we exist? <br />
                 Simple. To turn your "maybe" into "manifested." <br /><br />
@@ -34,7 +33,7 @@ const WhyChoose = () => {
 
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-20 gap-x-6 md:gap-x-12">
             <div className="order-none md:order-2">
-              <h2 className="mb-3 text-xl font-extrabold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl">
+              <h2 className="mb-3 text-xl font-bold tracking-tight text-center md:leading-tight sm:text-left md:text-4xl  px-6  text-indigo-600">
                 Why Choose Us?
               </h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">

@@ -21,13 +21,14 @@ export default function Home() {
         <meta name="description" content={metadata.description} />
         <title>{metadata.title}</title>
       </Head>
-      <body className='flex flex-col gap-0'>
+      <body className='flex flex-col gap-0 '>
         <Header />
-        <section className="bg-white lg:pt-10 max-w-screen-xl px-6 lg:px-12 pt-10 pb-3 mx-auto">
+        <main>
+        <section className="bg-white lg:pt-10 max-w-screen-xl px-6 lg:px-12 pt-10 pb-3 mx-auto mt-20 sm:mt-16 md:mt-5 lg:mt-0:">
           <div className="lg:grid lg:grid-cols-12 lg:py-14 lg:pt-18">
 
             <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-8">
-              <h1 className="text-indigo-600 dark:text-indigo-400 text-2xl font-bold md:text-3xl lg:text-4xl xl:text-5xl">
+              <h1 className="text-indigo-600 dark:text-indigo-400 text-4xl font-bold md:text-3xl lg:text-4xl xl:text-5xl">
                 Welcome to Atom
               </h1>
               <h2 className="max-w-2xl mb-4 text-3xl font-bold tracking-tight md:text-4xl xl:text-4xl text-black dark:text-black">
@@ -55,18 +56,31 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-8 justify-start items-center mx-auto gap-4 inline-flex flex-wrap">
-            <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2025</Link>
-            <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Mains 2024</Link>
-            <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-2 border-r-[1px] border-stone-300 hover:underline">Companionship</Link>
-            <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal hover:underline">Question Booklet Creator</Link>
-          </div>
+          <div className="h-4 justify-start items-center mx-auto gap-2 inline-flex  mt-9 lg:mt-0">
+  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
+    Mains 2025
+  </Link>
+  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
+    Mains 2024
+  </Link>
+  <Link href='#courses' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal md:pr-6 pr-1 border-r-[1px] border-stone-300 hover:underline">
+    Companionship
+  </Link>
+  <Link href='#' className="text-black dark:text-white md:text-lg text-xs font-normal font-['Inter'] leading-normal hover:underline">
+    Question Booklet Creator
+  </Link>
+</div>
+
+
         </section>
+        </main>
+
         <WhyChoose />
         <Course />
         <Contact />
         <Footer />
       </body>
+      
     </>
   );
 }
