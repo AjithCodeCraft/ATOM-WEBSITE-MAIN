@@ -43,7 +43,7 @@ export default function Header() {
 
           {/* Hamburger Menu Button */}
           <div
-            className={`tham tham-e-squeeze tham-w-6 rounded-md lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 fixed top-3 right-1 ${isOpen ? "tham-active bg-indigo-600" : "bg-[#ffffff]"}`}
+            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 fixed top-3 right-1 ${isOpen ? "tham-active bg-indigo-600" : "bg-[#ffffff]"}`}
             onClick={toggleMenu}
           >
             <div className="tham-box">
@@ -61,7 +61,7 @@ export default function Header() {
               padding: isOpen ? "2rem" : 0,
             }}
             transition={{ duration: 0.4 }}
-            className={`fixed top-3 right-3 bg-indigo-600 z-40 rounded-xl shadow-lg ${
+            className={`fixed top-3 right-1 bg-indigo-600 z-40 rounded-lg shadow-lg ${
               isOpen ? "pointer-events-auto" : "pointer-events-none"
             }`}
             style={{
@@ -73,7 +73,7 @@ export default function Header() {
                 <li key={item}>
                   <a
                     href={`/${item.toLowerCase().replace(/ /g, "-")}`}
-                    className="text-2xl sm:text-sm font-light text-white hover:text-[#115b4c] transition-transform duration-400"
+                    className="text-2xl md:text-base sm:text-sm  font-light text-white hover:text-[#115b4c] transition-transform duration-400"
                     onClick={toggleMenu}
                   >
                     {item}
