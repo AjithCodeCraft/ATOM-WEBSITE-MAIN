@@ -49,10 +49,10 @@ export default function Home() {
             <div className="lg:col-span-5 flex justify-center items-center mt-6 lg:mt-4 lg:pl-8">
               <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
                 <Image
-                  src="/hero-img.png"
+                  src="/heromain.png"
                   alt="Hero image"
-                  width={300}
-                  height={300}
+                  width={350}
+                  height={350}
                   className="rounded-lg object-cover"
                   priority
                   style={{ width: "100%", height: "auto" }}
