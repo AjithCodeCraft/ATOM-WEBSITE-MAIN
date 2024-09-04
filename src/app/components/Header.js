@@ -28,16 +28,16 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-20">
+    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-28">
       <nav className="py-2.5">
         <div className="flex items-center justify-between max-w-screen-xl px-8 mx-auto h-full">
           <a href="/" className="flex items-center">
             <img
-              src="/Atom-logo-2.png"
+              src="/Logo.png"
               alt="Logo"
-              width={160}
-              height={170}
-              className="h-16 mr-11"
+              width={70}
+              height={100}
+              className="mr-11 object-cover"
             />
           </a>
 
