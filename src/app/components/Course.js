@@ -433,8 +433,8 @@ function Course() {
     };
 
     return (
-        <section className="bg-gray-50 dark:bg-gray-900" id='courses'>
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6  pt-32 sm:pt-24 md:pt-28 xl:pt-40">
+        <section className="bg-gray-50 dark:bg-gray-900 pt-32 sm:pt-24 md:pt-28 xl:pt-40" id='courses'>
+            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6  ">
                 <div className="mx-auto max-w-screen-md text-center mb-4">
                    
                     <div className="flex justify-center space-x-4 mb-8">
