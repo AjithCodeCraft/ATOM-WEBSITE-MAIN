@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-24 px-3 sm:h-20  lg:px-23 xl:px-28">
       <nav className="h-full py-2.5">
-        <div className="flex items-center justify-between w-full px-3 mx-auto h-full ">
+        <div className="flex items-center justify-between w-full px-4 mx-auto h-full ">
         <a href="/" className="flex items-center">
   <img
     src="/Atom-logo-2.png"
