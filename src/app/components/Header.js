@@ -1,24 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-export const footerLinks = [
-  {
-      title: "Telegram",
-      href: "https://t.me/+ADvEJPjg2ThjNjE1"
-  },
-  {
-      title: "Youtube",
-      href: "https://www.youtube.com/@ATOMIASOFFICIAL"
-  },
-  {
-      title: "Instagram",
-      href: "https://www.instagram.com/atomiasofficial?igsh=Z2hsczJwempxcWto"
-  },
-  {
-      title: "Whatsapp",
-      href: "https://whatsapp.com/channel/0029VacaP049xVJcgVONTu1F"
-  }
-]
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,22 +10,21 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-28">
-      <nav className="py-2.5">
-        <div className="flex items-center justify-between w-full px-8 mx-auto h-full">
-          <a href="/" className="flex items-center">
-            <img
-              src="/Logo.png"
-              alt="Logo"
-              width={70}
-              height={100}
-              className="mr-11 object-cover"
-            />
-          </a>
+    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-24 px-3 sm:h-10  lg:px-2 xl:px-20">
+      <nav className="h-full py-2.5">
+        <div className="flex items-center justify-between w-full mx-auto h-full sm:px-2 px-3">
+        <a href="/" className="flex items-center">
+  <img
+    src="/Atom-Logo-2.png"
+    alt="Logo"
+    className="mr-11 object-cover w-32 h-auto sm:w-48 md:w-64 lg:w-72 xl:w-80"
+  />
+</a>
+
 
           {/* Hamburger Menu Button */}
           <div
-            className={`tham tham-e-squeeze tham-w-6 rounded-full lg:hidden  h-10 w-10 flex items-center justify-center shadow-lg z-50 px-[10px] ${isOpen ? "tham-active bg-white" : "bg-[#ffffff]"}`}
+            className={`tham tham-e-squeeze tham-w-8 rounded-full lg:hidden  h-12 w-12 flex items-center justify-center shadow-lg z-50 px-[12px] ${isOpen ? "tham-active bg-white" : "bg-[#ffffff]"}`}
             onClick={toggleMenu}
           >
             <div className="tham-box">

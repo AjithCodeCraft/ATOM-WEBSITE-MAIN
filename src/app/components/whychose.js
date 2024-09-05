@@ -12,9 +12,9 @@ const WhyChoose = () => {
               <h2 className="mb-3 font-bold tracking-tight text-center sm:text-left md:text-left md:leading-tight text-4xl px-6 sm:px-4 md:px-0 md:ml-0 text-indigo-600">
                 Atom's Way</h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
-                Why do we exist? <br />
-                Simple. To turn your "maybe" into "manifested." <br /><br />
-                Our mission? <br />
+              <span className='font-semibold'>Why do we exist? </span> <br />
+                Simple. To turn your "maybe" into "manifested."<br/> <br/>
+                <span className='font-semibold'>Our mission?</span> <br />
                 To ignite the flames of aspiration within every cosmic explorer. <br /><br />
                 Think of us as the backstage pass to cracking the IAS code. We envision a community where knowledge flows freely, doubts find answers, and resilience becomes second nature. <br /><br />
                 As we prepare aspirants for the IAS journey, we see a ripple effect - a ripple that extends beyond exams, touching lives, policies, and the very fabric of our nation. <br /><br />
