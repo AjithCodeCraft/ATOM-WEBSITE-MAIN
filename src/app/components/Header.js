@@ -10,12 +10,12 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-24 px-3 sm:h-10  lg:px-2 xl:px-20">
+    <header className="fixed w-full bg-white border-b z-50 top-0 left-0 right-0 h-24 px-3 sm:h-20  lg:px-23 xl:px-28">
       <nav className="h-full py-2.5">
-        <div className="flex items-center justify-between w-full mx-auto h-full sm:px-2 px-3">
+        <div className="flex items-center justify-between w-full px-3 mx-auto h-full ">
         <a href="/" className="flex items-center">
   <img
-    src="/Atom-Logo-2.png"
+    src="/Atom-logo-2.png"
     alt="Logo"
     className="mr-11 object-cover w-32 h-auto sm:w-48 md:w-64 lg:w-72 xl:w-80"
   />
