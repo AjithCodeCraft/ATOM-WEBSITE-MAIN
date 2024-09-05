@@ -5,15 +5,16 @@ const WhyChoose = () => {
   return (
     <>
       {/* Section 1 */}
-      <section className="bg-white text-black py-12 w-full  px-6 lg:px-7 " id='whychooseus'>
+      <section className="bg-white text-black py-12 w-full px-6 lg:px-7 pt-32 sm:pt-24 md:pt-28 xl:pt-40" id='whychooseus'>
         <div className="flex flex-col w-full md:gap-20 gap-8">
           <div className="flex lg:flex-row flex-col w-full items-center justify-between md:gap-3 gap-5">
             <div className=''>
               <h2 className="mb-3 font-bold tracking-tight text-center sm:text-left md:text-left md:leading-tight text-4xl px-6 sm:px-4 md:px-0 md:ml-0 text-indigo-600">
-                Atom's Way</h2>
+                Atom's Way
+              </h2>
               <p className="mb-4 text-base text-center text-black sm:text-left md:text-md">
-              <span className='font-semibold'>Why do we exist? </span> <br />
-                Simple. To turn your "maybe" into "manifested."<br/> <br/>
+                <span className='font-semibold'>Why do we exist? </span> <br />
+                Simple. To turn your "maybe" into "manifested."<br/><br/>
                 <span className='font-semibold'>Our mission?</span> <br />
                 To ignite the flames of aspiration within every cosmic explorer. <br /><br />
                 Think of us as the backstage pass to cracking the IAS code. We envision a community where knowledge flows freely, doubts find answers, and resilience becomes second nature. <br /><br />
@@ -43,7 +44,7 @@ const WhyChoose = () => {
               />
             </div>
             <div className="">
-              <h2 className="mb-3 font-bold tracking-tight text-center md:leading-tight sm:text-left text-4xl  lg:px-6 px-0  text-indigo-600">
+              <h2 className="mb-3 font-bold tracking-tight text-center md:leading-tight sm:text-left text-4xl lg:px-6 px-0 text-indigo-600">
                 Why Choose Us?
               </h2>
               <p className="mb-4 lg:px-6 px-0 text-base text-center text-black sm:text-left md:text-md">

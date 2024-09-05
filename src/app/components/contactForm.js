@@ -12,7 +12,7 @@ const Contact = () => {
         window.open(whatsappURL, '_blank');
     };
     return (
-        <div className="px-4 lg:px-8 bg-white" id='contactus'>
+        <div className="px-4 lg:px-8 bg-white  pt-30 sm:pt-24 md:pt-28 xl:pt-35" id='contactus'>
             <section className="mb-4">
                 <div className="flex justify-center mt-[40px]">
                     <div className="text-center md:max-w-xl lg:max-w-3xl">

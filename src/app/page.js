@@ -34,7 +34,7 @@ export default function Home() {
               </h2>
 
               <p className="max-w-2xl mb-4 text-black dark:text-gray-300 text-base font-normal lg:text-lg">
-                We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers, and syllabus navigators.
+                We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers and syllabus navigators.
               </p>
 
               <div className="flex flex-row justify-center lg:justify-start gap-3 mt-4">

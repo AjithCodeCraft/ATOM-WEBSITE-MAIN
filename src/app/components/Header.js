@@ -90,27 +90,6 @@ export default function Header() {
             </ul>
           </div>
         </div>
-        {/* <motion.div className={styles.footer}>
-            {
-                footerLinks.map( (link, i) => {
-                    const { title, href } = link;
-                    return (
-                        <motion.a 
-                            variants={slideIn}
-                            custom={i}
-                            href={href}
-                            initial="initial"
-                            animate="enter"
-                            exit="exit"
-                            key={`f_${i}`}
-                            className='text-white focus:font-bold hover:font-bold font-normal font-inter'
-                        >
-                            {title}
-                        </motion.a>
-                    )
-                })
-            }
-       </motion.div> */}
       </nav>
     </header>
   );
