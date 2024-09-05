@@ -17,7 +17,7 @@ export default function Header() {
   <img
     src="/Atom-logo-2.png"
     alt="Logo"
-    className="mr-11 object-cover w-32 h-auto sm:w-48 md:w-64 lg:w-72 xl:w-80"
+    className="mr-11 object-cover w-40 h-auto sm:w-36 md:w-64 lg:w-72 xl:w-80"
   />
 </a>
 

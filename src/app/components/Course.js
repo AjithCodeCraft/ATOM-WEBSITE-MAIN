@@ -438,13 +438,13 @@ function Course() {
                 <div className="mx-auto max-w-screen-md text-center mb-4">
                    
                     <div className="flex justify-center space-x-4 mb-8">
-                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === '2024Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('2024Mains')} className={`px-3 py-1.5 sm:px-10 sm:py-2 md:px-4 md:py-2 md:text-xl text-base font-medium ${selectedPlan === '2024Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full  shadow`}>
                             2024 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === '2025Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('2025Mains')} className={`px-3 py-1.5 sm:px-10 sm:py-2 md:px-4 md:py-2  md:text-xl text-base font-medium ${selectedPlan === '2025Mains' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             2025 Mains
                         </button>
-                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-4 py-2 md:text-xl text-base font-medium ${selectedPlan === 'Companionship' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
+                        <button onClick={() => setSelectedPlan('Companionship')} className={`px-3 py-1.5 sm:px-10 sm:py-2 md:px-4 md:py-2  md:text-xl text-base font-medium ${selectedPlan === 'Companionship' ? 'bg-indigo-600 text-white' : 'bg-white text-gray-900'} rounded-full shadow`}>
                             Companionship
                         </button>
                     </div>
