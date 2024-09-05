@@ -8,7 +8,15 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="text-center">
           <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-            <Image src="/Logo.png" className="object-cover" alt="Atom Logo" width={70} height={180} />
+          <Image
+            src="/Logo.png"
+            className="object-cover"
+            alt="Atom Logo"
+            width={70}
+            height={180}
+            style={{ width: '70', height: '190' }}
+          />
+
           </a>
           <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
             © 2024-2025 AToM IAS™. All Rights Reserved. 

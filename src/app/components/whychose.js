@@ -19,7 +19,7 @@ const WhyChoose = () => {
                 To ignite the flames of aspiration within every cosmic explorer. <br /><br />
                 Think of us as the backstage pass to cracking the IAS code. We envision a community where knowledge flows freely, doubts find answers, and resilience becomes second nature. <br /><br />
                 As we prepare aspirants for the IAS journey, we see a ripple effect - a ripple that extends beyond exams, touching lives, policies, and the very fabric of our nation. <br /><br />
-                AToM's legacy lies in the aspirants we nurture, the leaders we shape, and the positive impact they create.
+                Atom's legacy lies in the aspirants we nurture, the leaders we shape, and the positive impact they create.
               </p>
             </div>
             <div className="relative flex justify-center items-center w-full h-[400px] max-w-[400px] mx-auto">
@@ -49,7 +49,7 @@ const WhyChoose = () => {
               </h2>
               <p className="mb-4 lg:px-6 px-0 text-base text-center text-black sm:text-left md:text-md">
                 Because we’re not just about exams; we’re about shaping future leaders who’ll inspire generations. <br /><br />
-                At AToM, our mission is to ignite the flames of aspiration within every IAS aspirant. <br /><br />
+                At Atom, our mission is to ignite the flames of aspiration within every IAS aspirant. <br /><br />
                 We believe that mentorship is the compass that guides these flames toward the summit of success. <br /><br />
                 Through curated courses, personalized mentorship, and unwavering commitment, we empower aspirants. <br /><br />
                 <span className='font-semibold'>Why choose us?</span> <br />

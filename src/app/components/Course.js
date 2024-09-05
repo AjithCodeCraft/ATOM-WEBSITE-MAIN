@@ -49,7 +49,7 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Intensive evaluation and<span className="block">value addition</span></span>
+                                    <span>Intensive Evaluation and<span className="block">Value Addition</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +155,7 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Intensive evaluation</span>
+                                    <span>Intensive Evaluation</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -212,31 +212,31 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Finish your mains syllabus with us by writing PYQs(CURATED)</span>
+                                    <span>Finish your Mains Syllabus with us by Writing PYQs(CURATED)</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Weekly targets</span>
+                                    <span>Weekly Targets</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Target based micro tests</span>
+                                    <span>Target based Micro Tests</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Complete syllabus coverage in<span className="block"> 6 months</span></span>
+                                    <span>Complete Syllabus Coverage in<span className="block"> 6 months</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Weekly one on one<span className="block">mentorship support</span></span>
+                                    <span>Weekly one on one<span className="block">Mentorship Support</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -248,13 +248,13 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Weekly progress analysis</span>
+                                    <span>Weekly Progress Analysis</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Intensive evaluation and<span className="block"> value addition</span></span>
+                                    <span>Intensive Evaluation and<span className="block"> Value Addition</span></span>
                                 </li>
                             </ul>
                             <button type='button'onClick={() =>sendWhatsAppMessage("ATOM SCRIBBLE", "Your Mains Navigator")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
@@ -280,19 +280,19 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Complete syllabus coverage<span className="block"> using PYQs</span></span>
+                                    <span>Complete Syllabus coverage<span className="block"> using PYQs</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Weekly one on one<span className="block"> mentorship support</span></span>
+                                    <span>Weekly one on one<span className="block"> Mentorship Support</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Weekly progress analysis</span>
+                                    <span>Weekly Progress Analysis</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -324,13 +324,13 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>2 essays/week</span>
+                                    <span>2 Essays/Week</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Intensive evaluation</span>
+                                    <span>Intensive Evaluation</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -354,7 +354,7 @@ function Course() {
                                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Model answer frameworks</span>
+                                    <span>Model Answer Frameworks</span>
                                 </li>
                             </ul>
                             <button type='button' onClick={() =>sendWhatsAppMessage("ESSAY NEBULA", "Connecting Minds And Crafting Essays")} className="text-white bg-indigo-600 hover:bg-indigo-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900">
