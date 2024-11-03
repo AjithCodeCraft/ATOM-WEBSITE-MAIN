@@ -48,15 +48,19 @@ export default function Home() {
             </div>
             <div className="lg:col-span-5 flex justify-center items-center mt-6 lg:mt-4 lg:pl-8">
               <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-                <Image
-                  src="/heromain.png"
-                  alt="Hero image"
+                <video
+                  src="/Atom-logo-2.mp4"
+
                   width={350}
                   height={350}
                   className="rounded-lg object-cover"
-                  priority
+                  autoPlay
+                  loop
+                  playsInline
                   style={{ width: "100%", height: "auto" }}
-                />
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>

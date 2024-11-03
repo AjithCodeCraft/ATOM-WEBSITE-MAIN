@@ -7,7 +7,7 @@ const Contact = () => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const message = `Name: ${formData.get('name')}\nEmail: ${formData.get('email')}\nPhone: ${formData.get('phone')}\nMessage: ${formData.get('message')}`;
-        const phoneNumber = '7306268026';
+        const phoneNumber = '9447776573';
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
     };
