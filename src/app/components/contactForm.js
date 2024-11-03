@@ -12,11 +12,11 @@ const Contact = () => {
         window.open(whatsappURL, '_blank');
     };
     return (
-        <div className="px-4 lg:px-8 bg-white" id='contactus'>
+        <div className="px-4 lg:px-8 pt-32 sm:pt-36 md:pt-28 xl:pt-44 bg-white" id='contactus'>
             <section className="mb-4">
-                <div className="flex justify-center mt-[40px]">
-                    <div className="text-center md:max-w-xl lg:max-w-3xl">
-                        <h2 className="mb-12 px-6 text-3xl font-bold text-indigo-600">
+                <div className="flex justify-center mt-4">
+                    <div className="text-center md:max-w-xl lg:max-w-3xl mx-auto">
+                        <h2 className="mb-6 px-4 text-3xl font-bold text-indigo-600">
                             Contact Us
                         </h2>
                     </div>
@@ -87,7 +87,7 @@ const Contact = () => {
 
                         <div className="w-full">
                             <div className="flex flex-row justify-between w-full">
-                                <div className="mb-12 md:px-3 px-0">
+                                <div className="mb-12 md:px-1 px-0">
                                     <div className="flex items-start">
                                         <div className="inline-block rounded-md  p-4 text-indigo-600">
                                             <Link href='https://t.me/+ADvEJPjg2ThjNjE1' target='_blank'>

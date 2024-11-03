@@ -26,15 +26,15 @@ export default function Home() {
         <section className="bg-white lg:pt-10  px-6 lg:px-12 xl:px-4 pt-10 pb-3  mt-32 lg:mt-5">
           <div className="lg:grid lg:grid-cols-12 lg:py-14 lg:pt-18">
             <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pr-8">
-              <h1 className="text-indigo-600 dark:text-indigo-400 text-4xl font-bold md:text-3xl lg:text-4xl xl:text-5xl mb-3">
-                Welcome to Atom
+            <h1 className="text-indigo-600 dark:text-indigo-400 text-5xl font-bold md:text-4xl lg:text-5xl xl:text-6xl mb-3">
+            Welcome to Atom
               </h1>
               <h2 className="max-w-2xl mb-4 text-3xl font-bold tracking-tight md:text-4xl xl:text-4xl text-black dark:text-black">
                 The Cosmic Hub for IAS Aspirants
               </h2>
 
               <p className="max-w-2xl mb-4 text-black dark:text-gray-300 text-base font-normal lg:text-lg">
-                We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers, and syllabus navigators.
+                We&apos;re not your average study buddies. We&apos;re stardust-infused mentors, caffeine-fueled dream weavers and syllabus navigators.
               </p>
 
               <div className="flex flex-row justify-center lg:justify-start gap-3 mt-4">
