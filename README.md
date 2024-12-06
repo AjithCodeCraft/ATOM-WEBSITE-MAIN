@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## ATOM IAS WEBSITE
 Visit the Website
 Experience the live website at:
 👉 https://www.atomias.com/
